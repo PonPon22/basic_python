@@ -13,11 +13,3 @@ a = area_rectangle(4,6)
 b = area_rectangle(3,5)
 sum = a + b
 print("dien tich hinh chu nhat la: " + str(sum))
-
-def chi_em(Phuong, Dat):
-    if Phuong > Dat:
-        return Phuong, Dat
-    else:
-        print("khong co ket qua.")
-chi_em(22, 17)
- 
